@@ -1,5 +1,8 @@
 #!/bin/bash
 
+usermod -u $USER_ID www-data
+groupmod -g $USER_ID www-data
+
 #Wait MySql is Ready!
 while ! mysqladmin ping -h"$DB_HOST" -uroot -p"$WORDPRESS_DB_PASSWORD" --silent; do
     sleep 1

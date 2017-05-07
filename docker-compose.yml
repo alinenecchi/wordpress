@@ -9,6 +9,7 @@ services:
     environment:
       WORDPRESS_DB_PASSWORD: example
       DB_HOST: mysql
+      USER_ID: ${USER_ID}
     links:
       - mysql:mysql
     volumes:
