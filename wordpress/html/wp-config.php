@@ -18,9 +18,6 @@
  * @package WordPress
  */
 
-/** Install Plugins withou FTP **/
- define('FS_METHOD', 'direct');
-
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('DB_NAME', 'wordpress');
@@ -49,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '5c663b05830968ccbc8873b02ec06d87b7658d1b');
-define('SECURE_AUTH_KEY',  '856cf472618b77c74c965578a337ab51f26597c4');
-define('LOGGED_IN_KEY',    '6982eca737bd42a2af3310160512308f63c4a79b');
-define('NONCE_KEY',        '3bbcb754c3e59ebf9d78a8089fa6c6edf3748de5');
-define('AUTH_SALT',        '071d69a82d5ab6922f8d1bc5918e25ec225f9400');
-define('SECURE_AUTH_SALT', 'ae8f130bcc4ae70d95e8de7ee34bfc1e4d4a6ff8');
-define('LOGGED_IN_SALT',   '9ca2cf0fb7b3d6e6252c98a888b8d65853470aa0');
-define('NONCE_SALT',       '239bd7ce28fb42c83d90ab0ad8613bbbcbe75449');
+define('AUTH_KEY',         'b30e820b754f172888ddb851c0dfc9b23c857dd6');
+define('SECURE_AUTH_KEY',  'a120a38b3ff30f89384090d90240dc3278d0d845');
+define('LOGGED_IN_KEY',    'c87be668b13012c9428185c1730b2349269166f6');
+define('NONCE_KEY',        'cac9c601908aac4e607d6d9af0cfbd2afebe8f36');
+define('AUTH_SALT',        'a0dbaa5b8aacced8e2b10eb8b9d94a15ba608c74');
+define('SECURE_AUTH_SALT', '8ff1ae89d17be497d3e99a6ce724d67db5cdfa06');
+define('LOGGED_IN_SALT',   '3442000a3a6714569eac3ec0763f7e865d886e44');
+define('NONCE_SALT',       '5e58bbc9fe7f4599a9ad2b34f2fe00927f850a0c');
 
 /**#@-*/
 

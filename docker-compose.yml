@@ -13,8 +13,10 @@ services:
     links:
       - mysql:mysql
     volumes:
-          - ./wordpress/html:/var/www/html
-          - ./mysql:/mysql
+      - ./mysql:/mysql
+      - ./wordpress/html:/var/www/html
+      - ./wordpress/conf/uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
+
   mysql:
     image: mariadb
     environment:
